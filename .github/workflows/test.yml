@@ -1,0 +1,14 @@
+name: gtest
+
+on: [push, pull_request]
+
+jobs:
+  gtest:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout this repository
+      uses: actions/checkout@v4
+    - name: configure
+      run: cmake -S . -B build && cmake --build build
+    - name: make
+      run: cd build && make test
