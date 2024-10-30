@@ -19,6 +19,7 @@ $❯ cd ..
 ## Dependencies
 
 * [Bazel](https://bazel.build/)
+  * [Bazel Tutorial: Build a C++ Project ](https://bazel.build/start/cpp) 
   * Bazelisk [C++](https://docs.bazel.build/versions/main/tutorial/cpp.html)
 * [GoogleTest](https://github.com/google/googletest)
     * [User’s Guide](https://google.github.io/googletest/)
